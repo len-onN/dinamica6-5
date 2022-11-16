@@ -75,3 +75,16 @@ main {
 }
 
 /* Seu código aqui */
+@media screen and (max-width: 600px){
+  .checkin {
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .checkin input {
+    margin: 0px;
+  }
+  .hotel-form textarea {
+    width: 50%;
+  }
+}
