@@ -74,17 +74,18 @@ main {
   padding: 20px 30px;
 }
 
+
+
 /* Seu código aqui */
 @media screen and (max-width: 600px){
   .checkin {
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
+    align-items: center; /*Centralize todos os inputs.*/
+    flex-direction: column; /* 1 e 3 */ 
   }
   .checkin input {
-    margin: 0px;
+    margin: 0px; /*eliminando margens para centralizar inputs*/
   }
   .hotel-form textarea {
-    width: 50%;
+    width: 50%; /*Diminua a largura do campo Observações para 50%.*/
   }
 }
